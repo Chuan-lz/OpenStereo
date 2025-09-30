@@ -25,8 +25,10 @@ from .foundationstereo import FoundationStereoDataset
 from .dynamic_replica import DynamicReplicaDataset
 from .mono_dataset import MonoDataset
 from .realfill_dataset import RealfillDataset
+from .UAV_dataset import UAVDataset
 
 __all__ = {
+    'UAVDataset': UAVDataset,
     'RealfillDataset': RealfillDataset,
     'MonoDataset': MonoDataset,
     'SceneFlowDataset': SceneFlowDataset,
